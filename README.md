@@ -10,3 +10,7 @@ Commande de lancement OBLIGATOIRE (sinon crash GTK/GL sous WSL2) :
 
 Pour quitter la session QEMU proprement : fermer le terminal
 (le raccourci Ctrl+A puis X n'a pas fonctionné dans cet environnement).
+
+## Phosh (interface graphique)
+Lancement : ./run-qemu-phosh.sh
+Ne pas utiliser "pmbootstrap qemu --no-gl" avec Phosh (erreur virtio-gpu-gl / gl=off).
